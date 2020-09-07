@@ -5,7 +5,7 @@ feature 'Creating Posts' do
         #visit root route 
         visit '/'
         # click create post link    
-        clink_link 'Create Post'
+        click_link 'Create Post'
         # fill in the from with needed information (title and caption of job)
         fill_in 'Title', with: 'title'
         fill_in 'Caption', with: 'caption'
